@@ -10,7 +10,7 @@ public class FibonacciController {
 		if(n == 1 || n == 2) {
 			return 1;
 		}else {
-			// retorna a soma dois dois ultimos números da série fibonacci
+			// retorna a soma dois dois ultimos números para gerar a série fibonacci
 			return getFibonacci(n-1) + getFibonacci(n-2);
 		}
 	}
